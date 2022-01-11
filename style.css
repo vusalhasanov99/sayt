@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:sans-serif;
+}
+.menu{
+    height:70px;
+   background-color: black;
+   padding: 35px;
+}
+.menu a.logo{
+    text-decoration: none;
+    color: white !important;
+    font-size: 20px;
+    font-weight: 900;
+}
+.menu ul{
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.menu ul li a{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main{
+    height: 100vh;
+    background-image: url("../sayt/images/pexels-photo-1563356.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.main .container{
+    height: 600px;
+    width: 1000px;
+    display: flex;
+}
+.main .container .img{
+height: 600px;
+width: 500px;
+
+}
+.main .container .register{
+    height: 600px;
+width: 500px;
+background-color: white;
+}
+.main .container .img img{
+   width: 100%;
+   height: 600px;
+}
+.main .container .register .form form input[type=text],[type=email],[type=password]{
+    display: block;
+    height: 40px;
+    width: 200px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid rgb(124, 124, 124);
+}
+.main .container .register .form form input[type=submit]{
+    border-radius: 12px;
+    margin-top: 40px;
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg,#FBAB7E,#ecdc00);
+    cursor: pointer;
+    border: none;
+}
+.main .container .register .form form input[type=text],[type=email],[type=password]:focus{
+    outline: none;
+}
+.main .container .register{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.main .container .register h1{
+align-items: center;
+}
+.main .container .register .form .go-login{
+    margin-top: 25px;
+}
+.main .container .register .form .go-login a{
+    text-decoration: none;
+}
